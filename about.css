@@ -1,0 +1,164 @@
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:antiquewhite;
+  color: #333;
+  line-height: 1.6;
+  padding: 0;
+}
+nav {
+    margin-top: 0;
+    background-image: url('backgroundimage.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.logo img {
+    border-radius: 10px;
+}
+
+.menu {
+    display: none;
+}
+
+/* Hero Section */
+.about-hero {
+  background: antiquewhite;
+  text-align: center;
+  padding: 60px 20px 30px;
+}
+
+.about-hero .logo {
+  max-width: 80px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.about-hero h1 {
+  font-size: 36px;
+  color: #5c3a3a;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 18px;
+  color: #7a6c6c;
+}
+
+/* About Content */
+.about-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.about-section {
+  margin-bottom: 40px;
+}
+
+.about-section h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #5c3a3a;
+}
+
+.about-section p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+/* Mission Highlight */
+.about-section.mission {
+  background-color: #f1e8e3;
+  padding: 25px;
+  border-left: 5px solid #b48c8c;
+  border-radius: 6px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+  nav .links {
+        display: none;
+        flex-direction: column;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 64px;
+        left: 4.23cm;
+        padding: 10px;
+        z-index: 999;
+    }
+    .links a{
+        color: white;
+        padding: 10px;
+        margin: 0;
+        display: block;
+        align-items: center;
+    }
+    
+    .menu {
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+
+  .about-hero {
+    padding: 40px 15px 20px;
+  }
+
+  .about-hero h1 {
+    font-size: 26px;
+  }
+
+  .about-hero p {
+    font-size: 15px;
+  }
+
+  .about-hero .logo {
+    max-width: 60px;
+    margin-bottom: 10px;
+  }
+
+  .about-container {
+    padding: 25px 15px;
+  }
+
+  .about-section {
+    margin-bottom: 30px;
+  }
+
+  .about-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .about-section p {
+    font-size: 14px;
+  }
+
+  .about-section.mission {
+    padding: 20px;
+    font-size: 14px;
+  }
+}

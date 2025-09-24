@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&family=Playwrite+AU+QLD:wght@100..400&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+nav {
+    background-image: url('backgroundimage.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.logo img {
+    border-radius: 10px;
+}
+
+.menu {
+    display: none;
+}
+
+.videobox video {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.mytext {
+    position: absolute;
+    top: 5cm;
+    left: 2cm;
+    color: white;
+    font-family: "Playwrite AU QLD", cursive;
+}
+
+.mytext h1 {
+    font-size: 40px;
+}
+
+.mytext h3 {
+    font-size: 24px;
+}
+
+.shopheading {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    font-family: "Playwrite AU QLD", cursive;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#searchBar {
+    width: 40%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+#searchBar:focus {
+    border-color: #000;
+}
+
+.card {
+    display: inline-block;
+    background-color: aliceblue;
+    width: 290px;
+    margin-bottom: 30px;
+    margin-left: 0.5cm;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 320px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    height: 80%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.card h3, .card p {
+    font-family: "Playwrite AU QLD", cursive;
+}
+
+.footer {
+    background-color: black;
+    margin-top: 3cm;
+    border: 1px solid black;
+    height: 250px;
+}
+
+.icons img {
+    margin-top: 2cm;
+    margin-left: 30px;
+    cursor: pointer;
+    width: 50px;
+    border-radius: 50%;
+    border: 7px solid white;
+}
+
+.footeranchortag {
+    margin-top: 1cm;
+}
+
+.footeranchortag a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin-left: 30px;
+}
+
+.copyrightbar {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(163, 158, 158, 0.2);
+}
+
+.copyrightbar h4 {
+    color: white;
+}
+@media screen and (max-width: 768px) { 
+    #searchBar {
+        width: 80%;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+
+    .card {
+        width: 150px;
+        display: inline-block;
+        margin-bottom: 20px;
+        height: 150px;
+
+    }
+    .card h3{
+        font-size: 7px;
+    }
+    .card p{
+        font-size: 7px;
+    }
+    
+    nav .links {
+        display: none;
+        flex-direction: column;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 64px;
+        left: 4.23cm;
+        padding: 10px;
+        z-index: 999;
+    }
+    .links a{
+        color: white;
+        padding: 10px;
+        margin: 0;
+        display: block;
+        align-items: center;
+    }
+    
+    .menu {
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+    
+    .mytext {
+        position: absolute;
+        padding: 20px;
+        top:2cm ;
+        left: 10px;
+    }
+    
+    .mytext h1 {
+        font-size: 28px;
+    }
+    
+    .mytext h3 {
+        font-size: 18px;
+    }
+    
+    .videobox video {
+        height: 200px;
+    }
+    
+    .footer {
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .icons img {
+    align-items: center;
+    margin-top: 10px;
+    width: 35px;
+    border-width: 5px;
+    }
+    
+    .footeranchortag {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .footeranchortag a {
+        margin: 0;
+    }
+}

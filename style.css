@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&family=Playwrite+AU+QLD:wght@100..400&family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+body,html{
+    overflow-x: hidden;
+    
+}
+nav{
+    background-image: url(backgroundimage.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.logo img{
+    border-radius: 10px;
+}
+.menu{
+    display: none;
+}
+
+.mytext{
+    font-family: "Playwrite AU QLD", cursive;
+    top: 4cm;
+    left: 1cm;
+    color: aliceblue;
+    position: absolute;
+}
+.mytext h1{
+    font-size: 40px;
+}
+.bestsellingheading{
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+.cardbox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card{
+    background-color: aliceblue;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 370px;
+    text-align: center;
+    cursor: pointer;
+}
+.card img{
+    height: 100%;
+width: 100%;
+border-radius:10px ;
+}
+.viewallbutton{
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 15px;  
+    margin-top: 80px;
+    background-color: black;
+    border: 1px solid white;
+    color:aliceblue;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.shopbygender{
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+.landingpageperfume{
+    width: 400px;
+    margin-top: 2cm;
+    border-radius: 10px;
+    position: absolute;
+    left: 1%;
+    margin-left: 1cm;
+}
+.landingpageperfumeheading{
+    margin-top: 2cm;
+    position: absolute;
+    right:18%;
+    font-family: "Playwrite AU QLD", cursive;
+}
+.landingpageperfumediscr{
+    margin-top: 4.5cm;
+    position: absolute;
+    right:2.5%;
+    font-family: "Playwrite AU QLD", cursive;
+}
+.landingpageperfumepricebutton{
+    cursor: pointer;
+    padding: 15px;
+    background-color: black;
+    border: 1px solid white;
+    color:aliceblue;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 9cm;
+    margin-left: 20cm;
+    font-family: "Playwrite AU QLD", cursive;
+}
+.cardboxofshopformen{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.shopformenheading{
+    margin-top: 2cm;
+    text-align: center;
+    color: black;
+}
+.perfumebanner1st img{
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
+}
+.cardboxofshopforwomen{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.shopforwomenheading{
+    margin-top: 1cm;
+    text-align: center;
+    color: black;
+}
+#testimonials {
+    margin-top: 20px;
+    background-color:antiquewhite;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#testimonials .container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#testimonials h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.testimonial-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.testimonial {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 25px 30px;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.testimonial:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial p {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.testimonial h4 {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.testimonial span {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.footer{
+    background-color:black;
+    margin-top: 3cm;
+    padding-top: 10px;
+    border: 1px solid black;
+    height: 250px;
+}
+.icons img{
+    margin-top: 2cm;
+    margin-left: 30px;
+    cursor: pointer;
+    width:50px ;
+    border-radius:50%;
+    border: 7px solid white;
+}
+.footeranchortag{
+    margin-top: 1cm;
+    justify-content:center;
+    
+}
+.footeranchortag a{
+ text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    cursor: pointer; 
+    margin-left: 30px;  
+}
+.copyrightbar{
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 0;
+    background: rgba(163, 158, 158, 0.2);
+}
+.copyrightbar h4{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ======= Responsive Design for Mobile ======= */
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 10px;
+        position: relative;
+    }
+
+    .links {
+        display: none;
+        flex-direction: column;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 64px;
+        left: 4.23cm;
+        padding: 10px;
+        z-index: 999;
+    }
+
+    .links a {
+        color: white;
+        padding: 10px;
+        margin: 0;
+        display: block;
+        align-items: center;
+    }
+
+    .menu {
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .videobox video {
+        width: 100%;
+        height: auto;
+    }
+
+    .mytext {
+        position: absolute;
+        top: 2cm;
+    }
+
+    .mytext h1,
+    .mytext h3 {
+        font-size: 15px;
+    }
+
+    .bestsellingheading,
+    .shopbygender,
+    .shopformenheading,
+    .shopforwomenheading {
+        font-size: 24px;
+        margin: 20px 10px;
+    }
+
+    .cardbox,
+    .cardboxofshopformen,
+    .cardboxofshopforwomen {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .card {
+        width: 70%;
+        height:auto;
+    }
+
+    .landingpageperfume {
+        position: static;
+        width: 70%;
+        margin: 20px auto;
+        display: block;
+        border-radius: 10px;
+    }
+
+    .landingpageperfumeheading,
+    .landingpageperfumediscr,
+    .landingpageperfumepricebutton {
+        position: static;
+        align-items: center;
+        margin: 10px auto;
+        text-align: center;
+        word-spacing: 5px;
+    }
+
+    .landingpageperfumediscr {
+        font-size: 14px;
+        line-height: 2;
+        padding: 10px;
+    }
+
+    .landingpageperfumepricebutton {
+        margin-bottom: 30px;
+        margin-left: 2cm;
+
+
+    }
+
+    .perfumebanner1st img {
+        height: auto;
+    }
+    .testimonial-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+    .footer {
+        margin-top: 60px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .icons img {
+        margin: 10px;
+        width: 30px;
+    }
+
+    .footeranchortag {
+        align-items: center;
+    }
+
+    .footeranchortag a {
+        margin: 5px 0;
+    }
+
+    .copyrightbar h4 {
+        font-size: 12px;
+    }
+

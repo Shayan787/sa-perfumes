@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us | SA Perfumes</title>
+  <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <nav>
+            <div class="logo"><img src="logo.PNG" width="50px"></div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="shop.html">Products</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <img src="menuicon.png" class="menu">
+        </nav>
+
+  <div class="about-hero">
+    <img src="logo.png" alt="SA Perfumes Logo" class="logo">
+    <h1>About SA Perfumes</h1>
+    <p>Crafting memories, one scent at a time.</p>
+  </div>
+
+  <div class="about-container">
+    <section class="about-section">
+      <h2>Our Story</h2>
+      <p>
+        SA Perfumes was founded with a passion for capturing emotions through fragrance. 
+        Inspired by elegance, culture, and nature, we create perfumes that do more than smell good — they tell a story.
+      </p>
+      <p>
+        From humble beginnings in a small studio, we’ve grown into a brand trusted by thousands. 
+        Each bottle is crafted with precision, care, and a love for the art of perfumery.
+      </p>
+    </section>
+
+    <section class="about-section">
+      <h2>Our Philosophy</h2>
+      <p>
+        At SA Perfumes, we believe that fragrance is deeply personal. That's why we prioritize quality ingredients, 
+        sustainable practices, and unique scent compositions — to help you express your individuality.
+      </p>
+    </section>
+
+    <section class="about-section">
+      <h2>Meet the Founder</h2>
+      <p>
+        Founded by <strong>Shayan Ali Qazi</strong>, a lifelong lover of fine fragrance, SA Perfumes is built on the idea 
+        that a great perfume is a signature — something intimate, powerful, and timeless.
+      </p>
+    </section>
+
+    <section class="about-section mission">
+      <h2>Our Mission</h2>
+      <p>
+        To create scents that leave a lasting impression — on people, hearts, and memories.
+      </p>
+    </section>
+  </div>
+    <script>
+    const menu = document.querySelector('.menu');
+    const links = document.querySelector('.links');
+
+    menu.addEventListener('click', () => {
+        links.style.display = links.style.display === 'flex' ? 'none' : 'flex';
+    });
+</script>
+</body>
+</html>
