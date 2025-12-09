@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SA Perfumes | Luxury Fragrances</title>
+    <meta name="description" content="Premium luxury fragrances inspired by top brands. Elegant, sophisticated scents for every occasion.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cinzel:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" data-aos="fade-down">
+        <div class="nav-container">
+            <div class="logo-container">
+                <img src="logo.PNG" alt="SA Perfumes Logo" class="logo">
+                <span class="brand-name">SA PERFUMES</span>
+            </div>
+            
+            <div class="nav-links">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="shop.html" class="nav-link">Products</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="nav-actions">
+                <a href="shop.html" class="cta-button">Shop Now</a>
+                <button class="menu-toggle" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-video-container">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="PinDown.io_@Mnaga97_1757482815.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="hero-title">Elevate Your <span class="highlight">Scent</span> Experience</h1>
+            <p class="hero-subtitle">Luxury fragrances inspired by iconic brands, redefined for the modern connoisseur.</p>
+            <div class="hero-buttons">
+                <a href="#featured" class="primary-button">Explore Collection</a>
+                <a href="#testimonials" class="secondary-button">Discover Stories</a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="featured" class="section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">COLLECTION</span>
+                <h2 class="section-title">Signature <span class="highlight">Fragrances</span></h2>
+                <p class="section-description">Handcrafted scents that tell your story</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-image-container">
+                        <img src="30.webp" alt="Aroma Perfume" class="product-image">
+                        <div class="product-overlay">
+                            <a href="shop.html" class="quick-view">View Details</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Aroma</h3>
+                        <p class="product-description">A sophisticated blend of citrus and woody notes</p>
+                        <div class="product-price">Rs. 1,950</div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-image-container">
+                        <img src="18.png" alt="OUD E SEHAR Perfume" class="product-image">
+                        <div class="product-overlay">
+                            <a href="shop.html" class="quick-view">View Details</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">OUD E SEHAR</h3>
+                        <p class="product-description">Lighter, fresher interpretation of traditional oud</p>
+                        <div class="product-price">Rs. 1,950</div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-image-container">
+                        <img src="20.webp" alt="Creation Perfume" class="product-image">
+                        <div class="product-overlay">
+                            <a href="shop.html" class="quick-view">View Details</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Creation</h3>
+                        <p class="product-description">Modern floral with amber undertones</p>
+                        <div class="product-price">Rs. 1,950</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center" data-aos="fade-up" data-aos-delay="400">
+                <a href="shop.html" class="view-all-button">View All Products <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection by Gender -->
+    <section class="collection-section section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">CATEGORIES</span>
+                <h2 class="section-title">Find Your <span class="highlight">Signature</span></h2>
+            </div>
+            
+            <div class="collection-grid">
+                <div class="collection-card" data-aos="fade-right" data-aos-delay="100">
+                    <div class="collection-image">
+                        <img src="30.webp" alt="Men's Collection">
+                        <div class="collection-overlay">
+                            <h3>For Him</h3>
+                            <p>Bold & Sophisticated</p>
+                            <a href="shop.html?category=men">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="collection-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="collection-image">
+                        <img src="27.webp" alt="Women's Collection">
+                        <div class="collection-overlay">
+                            <h3>For Her</h3>
+                            <p>Elegant & Alluring</p>
+                            <a href="shop.html?category=women">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="collection-card" data-aos="fade-left" data-aos-delay="300">
+                    <div class="collection-image">
+                        <img src="29.webp" alt="Unisex Collection">
+                        <div class="collection-overlay">
+                            <h3>Unisex</h3>
+                            <p>Versatile & Modern</p>
+                            <a href="shop.html?category=unisex">Explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Product Highlight -->
+    <section class="featured-product section-padding">
+        <div class="container">
+            <div class="featured-grid">
+                <div class="featured-image" data-aos="fade-right">
+                    <div class="image-frame">
+                        <img src="18.png" alt="OUD E SEHAR" class="featured-perfume">
+                        <div class="floating-badge">Best Seller</div>
+                    </div>
+                </div>
+                
+                <div class="featured-content" data-aos="fade-left">
+                    <span class="product-label">SIGNATURE SCENT</span>
+                    <h2 class="product-title">OUD E SEHAR</h2>
+                    <p class="product-description">A distinguished variant of oud (agarwood) fragrance, characterized by its lighter, fresher, and more refined scent profile compared to traditional dark, rich oud perfumes.</p>
+                    
+                    <div class="featured-details">
+                        <div class="detail-item">
+                            <i class="fas fa-wind"></i>
+                            <span>Long-lasting</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>Natural Ingredients</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>Premium Quality</span>
+                        </div>
+                    </div>
+                    
+                    <div class="price-tag">
+                        <span class="starting">Starting from</span>
+                        <span class="price">Rs. 1,950</span>
+                    </div>
+                    
+                    <a href="shop.html" class="primary-button">Add to Collection</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Men's Collection -->
+    <section class="gender-section section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Fragrances for <span class="highlight">Men</span></h2>
+                <p class="section-description">Masculine scents that define character</p>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Product cards similar to featured section -->
+                <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-image-container">
+                        <img src="30.webp" alt="Aroma Perfume" width="100%" height="100%">
+                        <div class="product-overlay">
+                            <a href="shop.html" class="quick-view">View Details</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Aroma</h3>
+                        <div class="product-price">Rs. 1,950</div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-image-container">
+                        <img src="18.png" alt="OUD E SEHAR Perfume" width="100%" height="100%">
+                        <div class="product-overlay">
+                            <a href="shop.html" class="quick-view">View Details</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">OUD E SEHAR</h3>
+                        <div class="product-price">Rs. 1,950</div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-image-container">
+                        <img src="20.webp" alt="Creation Perfume" width="100%" height="100%">
+                        <div class="product-overlay">
+                            <a href="shop.html" class="quick-view">View Details</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Creation</h3>
+                        <div class="product-price">Rs. 1,950</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner -->
+    <section class="banner-section" data-aos="fade-up">
+        <div class="banner-content">
+            <h2 class="banner-title">Summer Collection 2025</h2>
+            <p class="banner-subtitle">Fresh scents for sunny days</p>
+            <a href="shop.html" class="banner-button">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Women's Collection -->
+    <section class="gender-section section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Fragrances for <span class="highlight">Women</span></h2>
+                <p class="section-description">Elegant scents that capture beauty</p>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Product cards similar to men's section -->
+                <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-image-container">
+                        <img src="30.webp" alt="Aroma Perfume" width="100%" height="100%">
+                        <div class="product-overlay">
+                            <a href="shop.html" class="quick-view">View Details</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Aroma</h3>
+                        <div class="product-price">Rs. 1,950</div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-image-container">
+                        <img src="20.webp" alt="OUD E SEHAR Perfume" width="100%" height="100%">
+                        <div class="product-overlay">
+                            <a href="shop.html" class="quick-view">View Details</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">OUD E SEHAR</h3>
+                        <div class="product-price">Rs. 1,950</div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-image-container">
+                        <img src="22.jpg" alt="Creation Perfume" width="100%" height="100%">
+                        <div class="product-overlay">
+                            <a href="shop.html" class="quick-view">View Details</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Creation</h3>
+                        <div class="product-price">Rs. 1,950</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials-section section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">TESTIMONIALS</span>
+                <h2 class="section-title">What Our <span class="highlight">Clients</span> Say</h2>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="testimonial-text">"The quality rivals luxury brands at a fraction of the price. My go-to fragrance for special occasions."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Daniyal Khaskheli</h4>
+                            <span>Instructor, GPI Matiari</span>
+                        </div>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="testimonial-text">"Excellent longevity and sophisticated scent profiles. Highly recommended for fragrance enthusiasts!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Kashif Khoso</h4>
+                            <span>Frontend Web Developer</span>
+                        </div>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="testimonial-text">"Professional service and exceptional quality. The packaging and presentation are absolutely premium."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>M Khan Khoso</h4>
+                            <span>Web Developer</span>
+                        </div>
+                        <div class="rating">★★★★☆</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section section-padding">
+        <div class="container">
+            <div class="newsletter-content" data-aos="fade-up">
+                <h2 class="newsletter-title">Join Our Fragrance Journey</h2>
+                <p class="newsletter-text">Subscribe to receive updates on new collections and exclusive offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="primary-button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <img src="logo.PNG" alt="SA Perfumes">
+                        <span class="brand-name">SA PERFUMES</span>
+                    </div>
+                    <p class="footer-description">Luxury fragrances inspired by iconic brands, crafted with passion for the modern individual.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">Our Story</a></li>
+                        <li><a href="shop.html">Collections</a></li>
+                        <li><a href="#testimonials">Reviews</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-heading">Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="shop.html?category=men">For Men</a></li>
+                        <li><a href="shop.html?category=women">For Women</a></li>
+                        <li><a href="shop.html?category=unisex">Unisex</a></li>
+                        <li><a href="shop.html">Best Sellers</a></li>
+                        <li><a href="shop.html">New Arrivals</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-heading">Contact Info</h3>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> Karachi, Pakistan</li>
+                        <li><i class="fas fa-phone"></i> +92 300 1234567</li>
+                        <li><i class="fas fa-envelope"></i> info@saperfumes.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2025 SA Perfumes. All rights reserved.</p>
+                    <p>Designed & Developed by <span class="developer-name">Shayan Ali Qazi</span></p>
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+
+        // Mobile menu toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        });
+
+        // Back to top button
+        const backToTop = document.querySelector('.back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                menuToggle.classList.remove('active');
+            });
+        });
+
+        // Newsletter form submission
+        document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = this.querySelector('input[type="email"]').value;
+            alert(`Thank you for subscribing with ${email}! You'll receive updates shortly.`);
+            this.reset();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SA Perfumes - Shop</title>
+    <link rel="stylesheet" href="shop.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.PNG" alt="SA Perfumes Logo">
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="shop.html" class="active">Products</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="shop-hero">
+            <div class="videobox">
+                <video src="PinDown.io_@Mnaga97_1757482815.mp4" autoplay muted loop></video>
+                <div class="video-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">Discover Your Signature Scent</h1>
+                <p class="hero-subtitle">Premium fragrances inspired by luxury brands</p>
+                <div class="search-container">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchBar" placeholder="Search perfumes...">
+                    <button class="search-btn">Search</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="shop-main">
+        <!-- Products Header -->
+        <div class="shop-header">
+            <h2 class="shop-title">Our Collection</h2>
+            <p class="shop-subtitle">Find your perfect fragrance</p>
+            <div class="shop-stats">
+                <span id="productCount">10</span> Products Available
+            </div>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="products-grid">
+            <!-- Product 1 -->
+            <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="product-image">
+                    <img src="30.webp" alt="Aroma">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <span class="product-badge">Men</span>
+                </div>
+                <div class="product-info">
+                    <h3>Aroma</h3>
+                    <p class="product-desc">A sophisticated blend of citrus and woody notes</p>
+                    <div class="product-price">Rs. 1,950</div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-shopping-bag"></i>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card" data-aos="fade-up" data-aos-delay="150">
+                <div class="product-image">
+                    <img src="18.png" alt="OUD E SEHAR">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <span class="product-badge">Men</span>
+                </div>
+                <div class="product-info">
+                    <h3>OUD E SEHAR</h3>
+                    <p class="product-desc">Lighter, fresher interpretation of traditional oud</p>
+                    <div class="product-price">Rs. 1,950</div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-shopping-bag"></i>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="product-image">
+                    <img src="20.webp" alt="Creation">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <span class="product-badge">Unisex</span>
+                </div>
+                <div class="product-info">
+                    <h3>Creation</h3>
+                    <p class="product-desc">Modern floral with amber undertones</p>
+                    <div class="product-price">Rs. 1,950</div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-shopping-bag"></i>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card" data-aos="fade-up" data-aos-delay="250">
+                <div class="product-image">
+                    <img src="27.webp" alt="Floral Bloom">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <span class="product-badge">Women</span>
+                </div>
+                <div class="product-info">
+                    <h3>Floral Bloom</h3>
+                    <p class="product-desc">Delicate bouquet of fresh flowers</p>
+                    <div class="product-price">Rs. 1,950</div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-shopping-bag"></i>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="product-image">
+                    <img src="timothy hogan.jpg" alt="Elixir No. 7">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <span class="product-badge">Men</span>
+                </div>
+                <div class="product-info">
+                    <h3>Elixir No. 7</h3>
+                    <p class="product-desc">Mysterious and captivating blend</p>
+                    <div class="product-price">Rs. 1,950</div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-shopping-bag"></i>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card" data-aos="fade-up" data-aos-delay="150">
+                <div class="product-image">
+                    <img src="5.webp" alt="Opal Dusk">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <span class="product-badge">Women</span>
+                </div>
+                <div class="product-info">
+                    <h3>Opal Dusk</h3>
+                    <p class="product-desc">Soft evening floral notes</p>
+                    <div class="product-price">Rs. 1,950</div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-shopping-bag"></i>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="product-image">
+                    <img src="12.webp" alt="Midnight Alchemy">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <span class="product-badge">Unisex</span>
+                </div>
+                <div class="product-info">
+                    <h3>Midnight Alchemy</h3>
+                    <p class="product-desc">Dark and mysterious nocturnal scent</p>
+                    <div class="product-price">Rs. 1,950</div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-shopping-bag"></i>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="product-card" data-aos="fade-up" data-aos-delay="250">
+                <div class="product-image">
+                    <img src="13.webp" alt="Aurum">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <span class="product-badge">Men</span>
+                </div>
+                <div class="product-info">
+                    <h3>Aurum</h3>
+                    <p class="product-desc">Golden warmth in a bottle</p>
+                    <div class="product-price">Rs. 1,950</div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-shopping-bag"></i>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Continue adding remaining products in the same pattern... -->
+
+        </div>
+
+        <!-- Featured Section -->
+        <div class="featured-section" data-aos="fade-up">
+            <h2 class="featured-title">Best Sellers</h2>
+            <div class="featured-products">
+                <div class="featured-card">
+                    <img src="18.png" alt="OUD E SEHAR">
+                    <h3>OUD E SEHAR</h3>
+                    <p class="price">Rs. 1,950</p>
+                </div>
+                <div class="featured-card">
+                    <img src="30.webp" alt="Aroma">
+                    <h3>Aroma</h3>
+                    <p class="price">Rs. 1,950</p>
+                </div>
+                <div class="featured-card">
+                    <img src="20.webp" alt="Creation">
+                    <h3>Creation</h3>
+                    <p class="price">Rs. 1,950</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="logo.PNG" alt="SA Perfumes">
+                    <h3>SA Perfumes</h3>
+                </div>
+                <p class="footer-description">
+                    Luxury fragrances inspired by iconic brands, crafted with passion for the modern individual.
+                </p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="shop.html">Products</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Categories</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Men's Fragrances</a></li>
+                    <li><a href="#">Women's Fragrances</a></li>
+                    <li><a href="#">Unisex Scents</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-map-marker-alt"></i> Karachi, Pakistan</li>
+                    <li><i class="fas fa-phone"></i> +92 300 1234567</li>
+                    <li><i class="fas fa-envelope"></i> info@saperfumes.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 SA Perfumes. All rights reserved.</p>
+            <p class="designer">Designed & Developed by <span>Shayan Ali Qazi</span></p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+
+        // Mobile menu toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        });
+
+        // Search functionality
+        const searchInput = document.getElementById('searchBar');
+        const productCards = document.querySelectorAll('.product-card');
+        const productCount = document.getElementById('productCount');
+        
+        searchInput.addEventListener('input', function() {
+            const query = this.value.toLowerCase();
+            let visibleCount = 0;
+            
+            productCards.forEach(card => {
+                const name = card.querySelector('h3').textContent.toLowerCase();
+                const description = card.querySelector('.product-desc').textContent.toLowerCase();
+                
+                if (name.includes(query) || description.includes(query)) {
+                    card.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+            
+            productCount.textContent = visibleCount;
+        });
+
+        // Add to cart functionality
+        document.querySelectorAll('.add-to-cart').forEach(button => {
+            button.addEventListener('click', function() {
+                const productName = this.closest('.product-card').querySelector('h3').textContent;
+                const cartCount = document.querySelector('.cart-count');
+                let currentCount = parseInt(cartCount.textContent);
+                
+                // Update cart count
+                cartCount.textContent = currentCount + 1;
+                cartCount.classList.add('pulse');
+                
+                // Show notification
+                showNotification(`${productName} added to cart!`);
+                
+                // Remove pulse animation
+                setTimeout(() => {
+                    cartCount.classList.remove('pulse');
+                }, 500);
+            });
+        });
+
+        // Quick view functionality
+        document.querySelectorAll('.quick-view').forEach(button => {
+            button.addEventListener('click', function() {
+                const productCard = this.closest('.product-card');
+                const productName = productCard.querySelector('h3').textContent;
+                const productPrice = productCard.querySelector('.product-price').textContent;
+                const productImage = productCard.querySelector('img').src;
+                const productDesc = productCard.querySelector('.product-desc').textContent;
+                
+                // Create modal
+                const modal = document.createElement('div');
+                modal.className = 'product-modal';
+                modal.innerHTML = `
+                    <div class="modal-overlay"></div>
+                    <div class="modal-content">
+                        <button class="close-modal">&times;</button>
+                        <div class="modal-body">
+                            <div class="modal-image">
+                                <img src="${productImage}" alt="${productName}">
+                            </div>
+                            <div class="modal-info">
+                                <h3>${productName}</h3>
+                                <p class="modal-desc">${productDesc}</p>
+                                <div class="modal-price">${productPrice}</div>
+                                <button class="add-to-cart modal-add-to-cart">
+                                    <i class="fas fa-shopping-bag"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                document.body.appendChild(modal);
+                document.body.style.overflow = 'hidden';
+                
+                // Close modal
+                modal.querySelector('.close-modal').addEventListener('click', () => {
+                    modal.remove();
+                    document.body.style.overflow = '';
+                });
+                
+                modal.querySelector('.modal-overlay').addEventListener('click', () => {
+                    modal.remove();
+                    document.body.style.overflow = '';
+                });
+                
+                // Add to cart from modal
+                modal.querySelector('.modal-add-to-cart').addEventListener('click', function() {
+                    const cartCount = document.querySelector('.cart-count');
+                    let currentCount = parseInt(cartCount.textContent);
+                    cartCount.textContent = currentCount + 1;
+                    showNotification(`${productName} added to cart!`);
+                });
+            });
+        });
+
+        // Show notification
+        function showNotification(message) {
+            const notification = document.createElement('div');
+            notification.className = 'notification';
+            notification.textContent = message;
+            document.body.appendChild(notification);
+            
+            setTimeout(() => notification.classList.add('show'), 10);
+            setTimeout(() => {
+                notification.classList.remove('show');
+                setTimeout(() => notification.remove(), 300);
+            }, 3000);
+        }
+
+        // Back to top button
+        const backToTop = document.querySelector('.back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+        
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Search button functionality
+        document.querySelector('.search-btn').addEventListener('click', () => {
+            searchInput.focus();
+        });
+    </script>
+</body>
+</html>
